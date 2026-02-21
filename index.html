@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,179 +15,168 @@
             color: #333;
             background: #f5f5f5;
         }
+
         .container {
             background: white;
             padding: 40px;
             border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             color: #2196F3;
             border-bottom: 3px solid #2196F3;
             padding-bottom: 10px;
         }
+
         h2 {
             color: #1976D2;
             margin-top: 30px;
         }
+
         .update-date {
             color: #666;
             font-style: italic;
             margin-bottom: 30px;
         }
-        .highlight {
-            background: #E3F2FD;
-            padding: 15px;
-            border-left: 4px solid #2196F3;
-            margin: 20px 0;
-        }
-        ul {
-            line-height: 1.8;
-        }
+
         .contact {
             background: #f9f9f9;
             padding: 20px;
             border-radius: 5px;
             margin-top: 30px;
         }
+
+        ul {
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>🌬️ BreathFlow - Gizlilik Politikası</h1>
-        <p class="update-date">Son Güncelleme: 2 Kasım 2025</p>
+        <p class="update-date"><strong>Son güncelleme:</strong> 17 Şubat 2026</p>
+        <p><strong>İletişim:</strong> <a href="mailto:dxdiag.app@gmail.com">dxdiag.app@gmail.com</a></p>
 
-        <div class="highlight">
-            <strong>📌 Önemli Not:</strong> BreathFlow uygulaması, gizliliğinize saygı duyar ve kişisel verilerinizi korur. Tüm verileriniz cihazınızda güvenli bir şekilde saklanır ve hiçbir sunucuya gönderilmez.
-        </div>
-
-        <h2>1. Veri Toplama</h2>
-        <p>BreathFlow uygulaması aşağıdaki verileri <strong>yalnızca cihazınızda</strong> saklar:</p>
+        <h2>1. Topladığımız Veriler</h2>
         <ul>
-            <li><strong>Nefes Egzersizi Kayıtları:</strong> Yaptığınız egzersizler, süreleri ve tercihleri</li>
-            <li><strong>Uyku Takip Verileri:</strong> Uyku süreleri, kalite puanları ve notlarınız</li>
-            <li><strong>Ses Tercihleri:</strong> Favori sesler ve karışım ayarlarınız</li>
-            <li><strong>Uygulama Ayarları:</strong> Bildirim tercihleri, tema seçimi ve diğer ayarlar</li>
-            <li><strong>İstatistikler:</strong> Toplam seans sayısı, streak bilgileri ve ilerleme verileri</li>
+            <li><strong>Hesap bilgileri:</strong> UID, e-posta, görünen ad, profil fotoğrafı, hesap oluşturma ve son
+                giriş tarihleri.</li>
+            <li><strong>Premium durumu:</strong> abonelik tipi (aylık/yıllık), premium durumu ve bitiş tarihi.</li>
+            <li><strong>Aktivite istatistikleri:</strong> toplam meditasyon dakikası, toplam seans sayısı, kesintisiz
+                seri (streak) günleri, son meditasyon tarihi, tamamlanan programlar.</li>
+            <li><strong>Favoriler ve tercihler:</strong> favori nefes egzersizleri ve sesler, günlük hedef, hatırlatma
+                saati, tema tercihi, bildirim durumu.</li>
+            <li><strong>Sleep Journal verileri:</strong> tarih, yatma/uyanma saatleri, ruh hali seçimi, rüya notu, uyku
+                kalitesi yorumu.</li>
+            <li><strong>Analitik & reklam:</strong> Firebase Analytics anonim kullanım olayları, Crashlytics hata
+                raporları, AdMob reklam gösterim istatistikleri.</li>
+            <li><strong>Yerel veriler:</strong> oturum açmadan önce cihazda saklanan uyku ve meditasyon kayıtları.</li>
         </ul>
 
-        <h2>2. Veri Saklama</h2>
-        <div class="highlight">
-            <p><strong>✅ Tüm veriler cihazınızda saklanır</strong></p>
-            <p><strong>❌ Hiçbir veri sunucuya gönderilmez</strong></p>
-            <p><strong>❌ Hiçbir veri üçüncü taraflarla paylaşılmaz</strong></p>
-        </div>
-        <p>Verileriniz, cihazınızın yerel depolama alanında (SharedPreferences ve yerel veritabanı) güvenli bir şekilde saklanır. Bu veriler yalnızca siz erişebilirsiniz ve uygulamayı sildiğinizde otomatik olarak silinir.</p>
-
-        <h2>3. Firebase Servisleri</h2>
-        <p>Uygulamamız, kullanıcı deneyimini iyileştirmek için aşağıdaki Firebase servislerini kullanır:</p>
-        
-        <h3>3.1. Firebase Analytics</h3>
+        <h2>2. Verileri Nasıl Kullanıyoruz?</h2>
         <ul>
-            <li><strong>Toplanan Veriler:</strong> Anonim kullanım istatistikleri (hangi özellikler kullanılıyor, uygulama ne kadar süre kullanılıyor)</li>
-            <li><strong>Amaç:</strong> Uygulama performansını iyileştirmek ve kullanıcı deneyimini geliştirmek</li>
-            <li><strong>Kişisel Bilgi:</strong> Hiçbir kişisel bilgi (isim, email, telefon vb.) toplanmaz</li>
+            <li>Uygulamayı kişiselleştirmek (favoriler, hedefler, tema, bildirimler).</li>
+            <li>İlerleme istatistikleri göstermek ve senkronize etmek için (oturum açan kullanıcılar için).</li>
+            <li>Premium erişimleri doğrulamak ve yönetmek.</li>
+            <li>Hata takibi, performans analizi ve ürün geliştirme yapmak.</li>
+            <li>Google AdMob üzerinden ilgi alanlarınıza uygun reklam göstermek.</li>
         </ul>
 
-        <h3>3.2. Firebase Crashlytics</h3>
+        <h2>3. Verilerin Saklanması</h2>
         <ul>
-            <li><strong>Toplanan Veriler:</strong> Uygulama çökme raporları ve hata logları</li>
-            <li><strong>Amaç:</strong> Teknik sorunları tespit etmek ve düzeltmek</li>
-            <li><strong>Kişisel Bilgi:</strong> Cihaz modeli ve işletim sistemi bilgisi (anonim)</li>
+            <li>Bulut verileri <strong>Firebase Firestore</strong>'da güvenli bir şekilde saklanır, aktarım sırasında
+                şifrelenir (Google Cloud güvenlik standartları).</li>
+            <li>Cihazda tutulan yerel veriler, uygulamayı kaldırdığınızda otomatik silinir.</li>
+            <li>Veriler yalnızca kendi hesabınızla ilişkilidir, veri eşitleme işlemi sadece oturum açıkken yapılır.</li>
         </ul>
 
-        <h3>3.3. Firebase Remote Config</h3>
+        <h2>4. Üçüncü Taraf Servisler</h2>
         <ul>
-            <li><strong>Amaç:</strong> Uygulama ayarlarını dinamik olarak güncellemek</li>
-            <li><strong>Veri Toplama:</strong> Hiçbir kişisel veri toplanmaz</li>
+            <li><strong>Firebase:</strong> Authentication, Firestore, Analytics, Crashlytics, Remote Config. Kullanıcı
+                verilerinin işlenmesi Firebase veri politikalarına tabidir.</li>
+            <li><strong>Google AdMob:</strong> Google'ın kişiselleştirilmiş reklam politikalarına tabidir.
+                Tercihlerinizi doğrudan genel "Google Reklam Ayarları" üzerinden yönetebilirsiniz.</li>
+            <li><strong>Google Play Billing:</strong> Premium abonelik satın alımları tamamen Google Play Store
+                üzerinden gerçekleştirilir. Ödeme bilgilerinize erişemeyiz; iade ve iptal süreçleri Google Play
+                kurallarına göre yürütülür.</li>
         </ul>
 
-        <h2>4. Google AdMob</h2>
-        <p>Uygulamamız, ücretsiz hizmet sunabilmek için Google AdMob reklamları gösterir:</p>
+        <h2>5. Sağlık Uyarısı</h2>
         <ul>
-            <li><strong>Reklam Gösterimi:</strong> Google AdMob, size uygun reklamlar göstermek için cihaz bilgilerinizi kullanabilir</li>
-            <li><strong>Kişiselleştirilmiş Reklamlar:</strong> Google'ın gizlilik politikasına tabidir</li>
-            <li><strong>Reklamsız Deneyim:</strong> Premium abonelik ile reklamları kaldırabilirsiniz</li>
-        </ul>
-        <p>Google AdMob gizlilik politikası: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
-
-        <h2>5. Uygulama İçi Satın Almalar</h2>
-        <p>Premium abonelik satın alımları Google Play Store üzerinden gerçekleştirilir:</p>
-        <ul>
-            <li><strong>Ödeme Bilgileri:</strong> Google Play Store tarafından işlenir, biz erişemeyiz</li>
-            <li><strong>Abonelik Durumu:</strong> Yalnızca abonelik aktif/pasif bilgisi cihazınızda saklanır</li>
-            <li><strong>İptal ve İade:</strong> Google Play Store politikalarına tabidir</li>
+            <li>BreathFlow uygulaması bir tıbbi tanı veya tedavi aracı değildir; içerikler genel "wellness" (zihinsel ve
+                fiziksel rahatlama) amaçlıdır.</li>
+            <li>Kalp, hipertansiyon, KOAH veya astım gibi solunum yolu rahatsızlıkları, nörolojik sorunlar, panik
+                bozukluk veya hamilelik gibi durumlarınız varsa herhangi bir nefes egzersizine başlamadan önce mutlaka
+                doktorunuza danışın.</li>
+            <li>Egzersizler sırasında baş dönmesi, göğüs ağrısı, ciddi nefes darlığı, halsizlik veya uyuşma gibi
+                reaksiyonlar hissederseniz hemen durun ve tıbbi destek alın.</li>
+            <li>Uyku veya dikkat gerektiren nefes egzersizlerini araç kullanırken veya tehlikeli işler yaparken
+                kesinlikle kullanmayın.</li>
         </ul>
 
-        <h2>6. İzinler</h2>
-        <p>Uygulamamız aşağıdaki izinleri kullanır:</p>
+        <h2>6. Veri ve Hesap Silme Hakkı (ÖNEMLİ)</h2>
         <ul>
-            <li><strong>Bildirimler:</strong> Nefes egzersizi ve uyku hatırlatmaları göndermek için</li>
-            <li><strong>İnternet Erişimi:</strong> Reklamları göstermek ve Firebase servislerini kullanmak için</li>
-            <li><strong>Ses Çalma:</strong> Rahatlatıcı sesler ve müzikler için</li>
-        </ul>
-        <p><strong>Not:</strong> Kamera, mikrofon, konum gibi hassas izinler istenmez.</p>
-
-        <h2>7. Çocukların Gizliliği</h2>
-        <p>Uygulamamız 13 yaş ve üzeri kullanıcılar içindir. 13 yaşından küçük çocuklardan bilerek veri toplamıyoruz. Eğer 13 yaşından küçük bir çocuğun veri sağladığını fark ederseniz, lütfen bize bildirin.</p>
-
-        <h2>8. Veri Güvenliği</h2>
-        <p>Verilerinizin güvenliği bizim için önemlidir:</p>
-        <ul>
-            <li>Tüm veriler cihazınızın güvenlik mekanizmaları ile korunur</li>
-            <li>Cihaz şifrelemesi kullanılır</li>
-            <li>Sunucuya veri gönderilmediği için veri sızıntısı riski yoktur</li>
+            <li>Uygulama içine <strong>"Hesabı ve Verileri Sil"</strong> butonu eklenmiştir. Bu butona basarak mevcut
+                şifrenizi girdiğinizde hesabınız, Firebase Auth profiliniz ve Firestore'daki tüm kişisel verileriniz
+                <strong>anında ve kalıcı olarak</strong> silinir.</li>
+            <li>Eğer uygulamayı cihazınızdan sildiyseniz veya girmek istemiyorsanız, kayıtlı olduğunuz e-posta
+                adresinden <strong>dxdiag.app@gmail.com</strong> adresine "Hesap Silme Talebi" konulu bir e-posta
+                atabilirsiniz. Bu talebiniz tarafımızca 30 gün içerisinde yerine getirilir.</li>
         </ul>
 
-        <h2>9. Verilerinizi Silme</h2>
-        <p>Verilerinizi istediğiniz zaman silebilirsiniz:</p>
+        <h2>7. Haklarınız (KVKK / GDPR / Veri Güvenliği)</h2>
         <ul>
-            <li><strong>Uygulama İçinden:</strong> Ayarlar > Veri Yönetimi > Tüm Verileri Sil</li>
-            <li><strong>Uygulamayı Kaldırma:</strong> Uygulamayı sildiğinizde tüm veriler otomatik olarak silinir</li>
+            <li>Verilerinize erişme, ne tür verilerin toplandığını öğrenme, eksiklikleri gidermek için düzeltme veya
+                kalıcı olarak silme hakkına her zaman sahipsiniz.</li>
+            <li>Verileriniz sadece kendi uygulamanızın çalışması için gereklidir, hiçbir şirket veya kurumla pazarlama
+                amaçlı satılmaz veya paylaşılmaz.</li>
+            <li>Tüm talepleriniz için <strong>dxdiag.app@gmail.com</strong> adresi her zaman aktiftir.</li>
         </ul>
 
-        <h2>10. Üçüncü Taraf Bağlantılar</h2>
-        <p>Uygulamamız, üçüncü taraf web sitelerine bağlantılar içerebilir. Bu sitelerin gizlilik politikalarından sorumlu değiliz. Lütfen ziyaret ettiğiniz her web sitesinin gizlilik politikasını okuyun.</p>
-
-        <h2>11. Değişiklikler</h2>
-        <p>Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayınlanacak ve "Son Güncelleme" tarihi güncellenecektir. Önemli değişiklikler için uygulama içinde bildirim gönderilebilir.</p>
-
-        <h2>12. Yasal Haklar (KVKK)</h2>
-        <p>Türkiye Cumhuriyeti vatandaşları için KVKK (Kişisel Verilerin Korunması Kanunu) kapsamında haklarınız:</p>
+        <h2>8. Çocukların Gizliliği</h2>
         <ul>
-            <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
-            <li>Kişisel verileriniz işlenmişse buna ilişkin bilgi talep etme</li>
-            <li>Kişisel verilerinizin silinmesini veya yok edilmesini isteme</li>
+            <li>BreathFlow, prensip olarak 13 yaş ve üzeri kullanıcı kitlesine hitap eder.</li>
+            <li>13 yaşından küçük olduğunu teyit ettiğimiz bir kullanıcının kişisel veri kaydını veya açtığı profili
+                sistemden hiçbir uyarı yapmaksızın derhal sileriz. Böyle bir durum tespit ederseniz bunu bize
+                bildirmeniz önemle rica olunur.</li>
         </ul>
-        <p><strong>Not:</strong> Verileriniz zaten cihazınızda saklandığı için bu haklara tam olarak sahipsiniz.</p>
+
+        <h2>9. Değişiklikler</h2>
+        <ul>
+            <li>Mobil uygulama hizmetlerimizi iyileştirdikçe bu politikayı zaman zaman güncelleyebiliriz. Üst kısımdaki
+                "Son güncelleme" tarihi daima günceli yansıtır. Çok önemli politik değişimlerde ayrıca uygulama içi bir
+                duyuru veya pop-up da paylaşabiliriz.</li>
+        </ul>
 
         <div class="contact">
-            <h2>13. İletişim</h2>
-            <p>Gizlilik politikamız hakkında sorularınız veya endişeleriniz varsa, lütfen bizimle iletişime geçin:</p>
-            <p><strong>📧 E-posta:</strong> dxdiag.app@gmail.com</p>
-            <p><strong>📱 Uygulama:</strong> BreathFlow</p>
-            <p><strong>🏢 Geliştirici:</strong> BreathFlow Team</p>
-            <p>Sorularınızı 48 saat içinde yanıtlamaya çalışacağız.</p>
-        </div>
-
-        <div class="highlight">
-            <h2>📝 Özet</h2>
-            <p><strong>BreathFlow gizliliğinize saygı duyar:</strong></p>
+            <h2>10. Özet ve İletişim</h2>
             <ul>
-                <li>✅ Tüm veriler cihazınızda saklanır</li>
-                <li>✅ Hiçbir kişisel bilgi toplanmaz</li>
-                <li>✅ Verileriniz sunucuya gönderilmez</li>
-                <li>✅ Verilerinizi istediğiniz zaman silebilirsiniz</li>
-                <li>✅ Sadece anonim kullanım istatistikleri toplanır (Firebase Analytics)</li>
-                <li>✅ Reklamlar Google AdMob tarafından yönetilir</li>
+                <li><strong>✅ Verileriniz Şifreli:</strong> Cihazınızda ve bağladığınız hesap üzerinden Firebase
+                    bulutlarında tamamen güvenli protokollerle tutulur.</li>
+                <li><strong>✅ Üçüncü Kişiler:</strong> Verilerinizi rızanız/bilginiz olmadan asla başka servis
+                    satıcılarıyla paylaşmayız. Sadece AdMob(reklam) ve Firebase(analitik/veritabanı) entegrasyonlarımız
+                    bulunmaktadır.</li>
+                <li><strong>✅ Sizin Kararınız:</strong> İstediğiniz zaman hesap ayarlarınızdan çıkış yapabilir, abonelik
+                    varsa cihaz platformunuzdan (Google Play) silebilir veya bize e-posta atarak tüm bulut varlığınızı
+                    sıfırlayabilirsiniz.</li>
             </ul>
+            <p><strong>Sorularınız için bizimle her zaman iletişime geçebilirsiniz:</strong></p>
+            <p><strong>E-posta:</strong> <a href="mailto:dxdiag.app@gmail.com">dxdiag.app@gmail.com</a></p>
         </div>
 
         <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
         <p style="text-align: center; color: #666; font-size: 14px;">
-            © 2025 BreathFlow. Tüm hakları saklıdır.<br>
-            Bu gizlilik politikası son olarak 2 Kasım 2025 tarihinde güncellenmiştir.
+            © 2026 BreathFlow. Tüm hakları saklıdır.<br>
+            Bu gizlilik politikası son olarak 17 Şubat 2026 tarihinde güncellenmiştir.
         </p>
     </div>
 </body>
+
 </html>
